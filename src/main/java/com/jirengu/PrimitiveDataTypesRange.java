@@ -2,30 +2,30 @@ package com.jirengu;
 
 public class PrimitiveDataTypesRange {
     // byte类型能表示的最大值/最小值
-    public static byte MAX_BYTE = 127;
-    public static byte MIN_BYTE = -128;
+    public static byte MAX_BYTE = 1;
+    public static byte MIN_BYTE = 1;
 
     // short类型能表示的最大值/最小值
-    public static short MAX_SHORT = 32767;
-    public static short MIN_SHORT = -32768;
+    public static short MAX_SHORT = 1;
+    public static short MIN_SHORT = 1;
     // int类型能表示的最大值/最小值
-    public static int MAX_INT = 2147483647;
-    public static int MIN_INT = -2147483648;
+    public static int MAX_INT = 1;
+    public static int MIN_INT = 1;
     // long类型能表示的最大值/最小值
-    public static long MAX_LONG = 9223372036854775807L;
-    public static long MIN_LONG = -9223372036854775808L;
+    public static long MAX_LONG = 1;
+    public static long MIN_LONG = 1;
 
     // float类型能表示的最大值/最小值
-    public static float MAX_FLOAT = Float.MAX_VALUE;
-    public static float MIN_FLOAT = Float.MIN_VALUE;
+    public static float MAX_FLOAT = 1.0f;
+    public static float MIN_FLOAT = 1.0f;
 
     // double类型能表示的最大值/最小值
-    public static double MAX_DOUBLE = Double.MAX_VALUE;
-    public static double MIN_DOUBLE = Double.MIN_VALUE;
+    public static double MAX_DOUBLE = 1.0;
+    public static double MIN_DOUBLE = 1.0;
 
     // char类型能表示的最大值/最小值？
-    public static char MAX_CHAR = 65535;
-    public static char MIN_CHAR = 0;
+    public static char MAX_CHAR = 1;
+    public static char MIN_CHAR = 1;
 
     public static void main(String[] args) {
         System.out.println("Max byte: "+ MAX_BYTE);
