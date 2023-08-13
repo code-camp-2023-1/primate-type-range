@@ -17,7 +17,7 @@ public class PrimitiveDataTypesRange {
 
     // float类型能表示的最大值/最小值
     public static float MAX_FLOAT = 0x1.fffffeP+127f;
-    public static float MIN_FLOAT =  0x1.0p-126f;
+    public static float MIN_FLOAT =  0x0.000002P-126f;
 
     // double类型能表示的最大值/最小值
     public static double MAX_DOUBLE = 0x1.fffffffffffffP+1023;
